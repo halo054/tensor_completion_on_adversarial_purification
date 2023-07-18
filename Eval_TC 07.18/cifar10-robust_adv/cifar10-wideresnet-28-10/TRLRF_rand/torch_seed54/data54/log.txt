@@ -1,0 +1,229 @@
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+2
+3
+1
+attack_version: rand, attack_list: ['apgd-ce', 'apgd-dlr']
+apply the attack to classifier [Linf]...
+using cifar10 wideresnet-28-10...
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 17:39:56,006 - Using device: cuda
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+2
+3
+1
+attack_version: standard, attack_list: ['apgd-ce', 'apgd-t', 'fab-t', 'square']
+apply the attack to classifier [Linf]...
+using cifar10 wideresnet-28-10...
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 17:42:01,562 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 17:42:01,562 - Using device: cuda
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+2
+3
+1
+attack_version: standard, attack_list: []
+apply the attack to classifier [Linf]...
+using cifar10 wideresnet-28-10...
+setting parameters for standard version
+Linf, epsilon: 0.07
+using standard version including apgd-ce, apgd-t, fab-t, square.
+initial accuracy: 94.70%
+apgd-ce - 1/15 - 64 out of 64 successfully perturbed
+apgd-ce - 2/15 - 64 out of 64 successfully perturbed
+apgd-ce - 3/15 - 64 out of 64 successfully perturbed
+apgd-ce - 4/15 - 64 out of 64 successfully perturbed
+apgd-ce - 5/15 - 64 out of 64 successfully perturbed
+apgd-ce - 6/15 - 64 out of 64 successfully perturbed
+apgd-ce - 7/15 - 64 out of 64 successfully perturbed
+apgd-ce - 8/15 - 64 out of 64 successfully perturbed
+apgd-ce - 9/15 - 64 out of 64 successfully perturbed
+apgd-ce - 10/15 - 64 out of 64 successfully perturbed
+apgd-ce - 11/15 - 64 out of 64 successfully perturbed
+apgd-ce - 12/15 - 64 out of 64 successfully perturbed
+apgd-ce - 13/15 - 64 out of 64 successfully perturbed
+apgd-ce - 14/15 - 64 out of 64 successfully perturbed
+apgd-ce - 15/15 - 51 out of 51 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 144.6 s)
+max Linf perturbation: 0.07000, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+x_adv_resnet shape: torch.Size([1000, 3, 32, 32])
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:03:25,338 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:03:25,338 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:03:25,338 - Using device: cuda
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+2
+3
+1
+attack_version: standard, attack_list: []
+apply the attack to classifier [Linf]...
+using cifar10 wideresnet-28-10...
+setting parameters for standard version
+Linf, epsilon: 0.07
+using standard version including apgd-ce, apgd-t, fab-t, square.
+initial accuracy: 94.70%
+apgd-ce - 1/15 - 64 out of 64 successfully perturbed
+apgd-ce - 2/15 - 64 out of 64 successfully perturbed
+apgd-ce - 3/15 - 64 out of 64 successfully perturbed
+apgd-ce - 4/15 - 64 out of 64 successfully perturbed
+apgd-ce - 5/15 - 64 out of 64 successfully perturbed
+apgd-ce - 6/15 - 64 out of 64 successfully perturbed
+apgd-ce - 7/15 - 64 out of 64 successfully perturbed
+apgd-ce - 8/15 - 64 out of 64 successfully perturbed
+apgd-ce - 9/15 - 64 out of 64 successfully perturbed
+apgd-ce - 10/15 - 64 out of 64 successfully perturbed
+apgd-ce - 11/15 - 64 out of 64 successfully perturbed
+apgd-ce - 12/15 - 64 out of 64 successfully perturbed
+apgd-ce - 13/15 - 64 out of 64 successfully perturbed
+apgd-ce - 14/15 - 64 out of 64 successfully perturbed
+apgd-ce - 15/15 - 51 out of 51 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 142.9 s)
+max Linf perturbation: 0.07000, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+x_adv_resnet shape: torch.Size([1000, 3, 32, 32])
+apply the attack to sde_adv [Linf]...
+setting parameters for standard version
+Linf, epsilon: 0.07
+using standard version including apgd-ce, apgd-t, fab-t, square.
+diffusion times: 0
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:20:55,849 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:20:55,849 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:20:55,849 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:20:55,849 - Using device: cuda
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+2
+3
+1
+attack_version: standard, attack_list: []
+apply the attack to classifier [Linf]...
+using cifar10 wideresnet-28-10...
+setting parameters for standard version
+Linf, epsilon: 0.07
+using standard version including apgd-ce, apgd-t, fab-t, square.
+initial accuracy: 94.70%
+apgd-ce - 1/15 - 64 out of 64 successfully perturbed
+apgd-ce - 2/15 - 64 out of 64 successfully perturbed
+apgd-ce - 3/15 - 64 out of 64 successfully perturbed
+apgd-ce - 4/15 - 64 out of 64 successfully perturbed
+apgd-ce - 5/15 - 64 out of 64 successfully perturbed
+apgd-ce - 6/15 - 64 out of 64 successfully perturbed
+apgd-ce - 7/15 - 64 out of 64 successfully perturbed
+apgd-ce - 8/15 - 64 out of 64 successfully perturbed
+apgd-ce - 9/15 - 64 out of 64 successfully perturbed
+apgd-ce - 10/15 - 64 out of 64 successfully perturbed
+apgd-ce - 11/15 - 64 out of 64 successfully perturbed
+apgd-ce - 12/15 - 64 out of 64 successfully perturbed
+apgd-ce - 13/15 - 64 out of 64 successfully perturbed
+apgd-ce - 14/15 - 64 out of 64 successfully perturbed
+apgd-ce - 15/15 - 51 out of 51 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 142.6 s)
+max Linf perturbation: 0.07000, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+x_adv_resnet shape: torch.Size([1000, 3, 32, 32])
+apply the attack to sde_adv [Linf]...
+setting parameters for standard version
+Linf, epsilon: 0.07
+using standard version including apgd-ce, apgd-t, fab-t, square.
+diffusion times: 0
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:42:11,040 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:42:11,040 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:42:11,040 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:42:11,040 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:42:11,040 - Using device: cuda
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+ 32, 32])
+x (min, max): (0.0, 1.0)
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+ 32, 32])
+x (min, max): (0.0, 1.0)
+[4;33mReloaded modules[24m: stadv_eot.recoloradv, stadv_eot.recoloradv.mister_ed, stadv_eot.recoloradv.mister_ed.utils, stadv_eot.recoloradv.mister_ed.utils.pytorch_utils, stadv_eot.recoloradv.mister_ed.utils.image_utils, stadv_eot.recoloradv.mister_ed.spatial_transformers, stadv_eot.recoloradv.mister_ed.adversarial_perturbations, stadv_eot.recoloradv.mister_ed.loss_functions, stadv_eot.recoloradv.mister_ed.config, stadv_eot.recoloradv.mister_ed.utils.checkpoints, stadv_eot.recoloradv.mister_ed.adversarial_training, stadv_eot.recoloradv.mister_ed.adversarial_attacks, stadv_eot.attacks, data.datasets, data, utils, TR_functions, TRWOPT_functions, TRLRF[0m
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+INFO - eval_tc.py - 2023-07-15 18:44:54,842 - Using device: cuda
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
+ngpus: 1, adv_batch_size: 64
+starting the model and loader...
+using cifar10 wideresnet-28-10...
+Decomposition_method: TRLRF
+Files already downloaded and verified
+x_val shape: torch.Size([1000, 3, 32, 32])
+x (min, max): (0.0, 1.0)
